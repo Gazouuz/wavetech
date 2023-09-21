@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Airstrike;
+    src: url(fonts/airstrike.ttf);
+}
+
+
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#first_container{
+    height:100vh;
+}
+body{
+    background-color: #171a2b;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#links_container{
+    display: flex;
+    align-items: center;
+    margin-right: 3em;
+}
+#links_container a{
+    color: white;
+    text-decoration: none;
+}
+#links_container a:hover{
+    color: #5ff3f8;
+}
+#main_title *{
+    color: white;
+    font-family: Airstrike;
+}
+center{
+    height: 80vh;
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 8em;
+    font-weight: 100;
+}
+#about{
+    border: 3px solid white;
+    padding: 1em;
+    border-radius: 15px;
+    color: white;
+    transition: ease-in 0.3s;
+}
+#about:hover{
+    border: 3px solid #5ff3f8;
+    background-color: #5ff3f823;
+    color: white;
+    transition: ease-in 0.3s;
+
+}
